@@ -549,3 +549,142 @@ body {
   font-weight: 500;
   line-height: normal;
 }
+
+.news {
+  display: flex;
+  width: 1280px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.news-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.news-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.news-header-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.sub p {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.news-cards {
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  border-radius: 24px;
+  background: #fff;
+}
+
+.satelite {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.news-cards-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+}
+
+.news-card-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.news-card-texts h3 {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.alj-logo {
+  width: 134px;
+  height: 40px;
+}
+
+.read-more {
+  display: flex;
+  padding: 13px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
+  background: #006a50;
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.time-date {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.time-date p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.news-card-texts {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
