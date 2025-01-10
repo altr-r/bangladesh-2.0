@@ -62,6 +62,7 @@ body {
 
 .hero {
   display: flex;
+  width: 1280px;
   padding: 80px 100px;
   justify-content: center;
   align-items: center;
@@ -125,4 +126,85 @@ body {
   width: 474.028px;
   height: 400px;
   flex-shrink: 0;
+}
+
+.rest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+}
+
+.pillars {
+  display: flex;
+  width: 1280px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+#pillars {
+  align-self: stretch;
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pillars-rest {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.pillar-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.cards {
+  display: flex;
+  width: 302px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.card-text-container h3 {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-text-container p {
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
 }
