@@ -663,6 +663,13 @@ body {
   line-height: normal;
 }
 
+.read-more:hover {
+  border: 1px solid;
+  border-color: #006a50;
+  background: white;
+  color: #006a50;
+}
+
 .time-date {
   display: flex;
   align-items: flex-start;
@@ -687,4 +694,153 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+
+.donate {
+  display: flex;
+  width: 1280px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.donate1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.donate1-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.donate-header {
+  align-self: stretch;
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.donate1-text-a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.donate1-text-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.donate-header-sub {
+  width: 1104px;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.donate2 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.money {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+
+.money:hover {
+  background: #c6e4d6;
+}
+
+.money-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.money-container p {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.donate3 {
+  display: flex;
+  width: 1032px;
+  padding: 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+
+.donate3-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.donate3-text p {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.donate4 {
+  display: flex;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  background: #006a50;
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.donate4:hover {
+  border-color: #006a50;
+  background: white;
+  color: #006a50;
 }
